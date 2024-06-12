@@ -53,20 +53,29 @@
     padding: 15px 30px;
     border-radius: 5px;
     font-weight: 500;
-    color: #333;
+    color: #000000;
     cursor:pointer;
 }
 
-.input-box input ::-webkit-calendar-picker-indicator {
+.input-box input::-webkit-calendar-picker-indicator {
 
-    top: 0;
-    left: 0;
+    top:0px;
+    left: 0px;
     right: 0;
     bottom: 0;
     width: auto;
     height: auto;
     position: absolute;
-  background-position: calc(100% -10px);
+  background-position: calc(100% - 10px);
   background-size: 30px;
   cursor: pointer;
 }
+
+#result{
+font-size: 20px;
+}
+
+#result span{
+   color: #ffff76;
+} 
+
